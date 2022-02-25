@@ -7,6 +7,7 @@ body {
 .header, .footer, .content_top {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 24px;
 }
 
 .header {
@@ -43,6 +44,12 @@ body {
     gap: 24px;
 }
 
+.content_1_header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .content_1_images {
     display: flex;
     gap: 24px;
@@ -62,4 +69,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.engage {
+    margin: 24px;
 }
