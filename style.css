@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header, .footer, .content_top {
@@ -28,8 +29,37 @@ body {
     width: 500px;
 }
 
-.text_jr {
+.text_jr, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.content_1 {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+}
+
+.content_1_images {
+    display: flex;
+    gap: 24px;
+}
+
+.small_pictures {
+    height: 100px;
+    width: 100px;
+}
+
+.content_2 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
