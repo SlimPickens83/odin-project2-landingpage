@@ -7,3 +7,29 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+.header {
+    font-size: 24px;
+}
+
+.content_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_picture {
+    height: 250px;
+    width: 500px;
+}
+
+.text_big {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 500px;
+}
+
+.text_jr {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
