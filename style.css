@@ -38,6 +38,7 @@ body {
 a {
     flex-wrap: nowrap;
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .content_top {
